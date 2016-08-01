@@ -42,8 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Files.cs" />
+    <Compile Include="Log\BaseLog.cs" />
+    <Compile Include="Log\DebugLog.cs" />
+    <Compile Include="Log\ErrorLog.cs" />
+    <Compile Include="Log\FatalLog.cs" />
+    <Compile Include="Log\InfoLog.cs" />
+    <Compile Include="Log\Logger.cs" />
+    <Compile Include="Log\WarnLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
