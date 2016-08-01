@@ -9,5 +9,5 @@ DownloadFile(string baseFolder, string fileName)|-|Trigger download from specifi
 
 ## Versions
 
-### v1.0.0
+### v0.1.0
 - Files class added
