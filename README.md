@@ -28,8 +28,8 @@ logger.Info("Enter your message here.");
 
 ## Versions
 
-### v0.1.0
-- Files class added
-
 ### v0.2.0
 - Logger class added
+
+### v0.1.0
+- Files class added
